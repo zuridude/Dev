@@ -1,0 +1,33 @@
+body{
+    background: #212529;
+    margin: 0 15vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    text-decoration: none;    
+    color: inherit;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-header{
+    color: #fff;
+    
+}
+
+.main-header ul > li{
+    color: #fff;
+    display: inline-block;
+    margin: 0 10px;
+    transition: color .2s;
+}
+
+.main-header li:hover{
+    color: gray;
+    transition: color .2s;
+}
+
