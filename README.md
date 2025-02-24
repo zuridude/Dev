@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @zuridude
+- 👋 Hi, I’m @zuri
 - 👀 I’m interested in web developing, videogames and music 
 - 🌱 I’m currently learning React and AWS 
 - 💞️ I’m looking to collaborate on similar projects  
