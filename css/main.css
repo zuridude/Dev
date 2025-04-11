@@ -1,7 +1,8 @@
 body{
     background: #212529;
-    margin: 0 15vw;
     font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    margin: 0;
 }
 
 a{
@@ -14,20 +15,60 @@ a{
     justify-content: space-between;
     align-items: center;
 }
+
 .main-header{
-    color: #fff;
-    
+    padding: 0 15vw;
+    margin-bottom: 20px;
+    background-color: #4d6074;
 }
 
 .main-header ul > li{
-    color: #fff;
     display: inline-block;
     margin: 0 10px;
     transition: color .2s;
 }
 
-.main-header li:hover{
+.main-header li:hover, .main-header .my-name:hover{
     color: gray;
     transition: color .2s;
 }
 
+
+.current-page-menu{
+    text-decoration: underline;
+}
+
+.content{
+    margin: 0 10vw;
+    display: flex;
+}
+
+.content .my-image img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+.content .about-me-content{
+    width: 100%;
+    padding: 5vw;
+}
+
+/* ######################### Columns CSS Flex ##########################  */
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+  
+/* ######################### /Columns CSS Flex ##########################  */
